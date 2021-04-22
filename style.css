@@ -4,6 +4,18 @@ body {
 
 }
 
+button {
+	border : 0.25em solid #8AC926;
+	padding: 1em;
+	border-radius: 0.5em;
+	margin: 1em;
+}
+
+.error {
+	color: red;
+	padding: 1em;
+}
+
 .pizza {
 	/* box-model */
 	border: 1px solid gainsboro;
@@ -25,12 +37,12 @@ body {
 
 .medium_pizza {
 	background-color: #FF595E;
-	flex : 2
+	flex : 1
 }
 
 .large_pizza {
 	background-color: #6A4C93;
-	flex : 2
+	flex : 1
 }
 
 .small_pizza {
@@ -39,6 +51,10 @@ body {
 }
 
 .contact_us {
+	background-color: #8AC926;
+}
+
+.budget {
 	background-color: #8AC926;
 }
 
@@ -56,6 +72,19 @@ body {
 		background-color: #6A4C93;
 		flex : 4
 	} */
+}
+
+.totalBudget {
+	padding: 0.5em;
+}
+
+.moneyLeft {
+	border : 0.2em solid gold;
+	background-color: black;
+	color: greenyellow;
+	padding: 0.25em;
+	border-radius: 0.25em;
+
 }
 
 

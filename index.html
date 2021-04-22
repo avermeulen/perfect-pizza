@@ -7,11 +7,27 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Perfect Pizza</title>
 	<link rel="stylesheet" href="style.css">
+	<!-- <script src="pizza.js"></script> -->
+
 </head>
 
 <body>
 	<h1>Perfect Pizza</h1>
 
+	<div class="budget pizza">
+		<div class="error" >
+			
+		</div>
+		<div>
+			Total budget: <input type="text" class="totalBudget" >
+		</div>
+
+		<div>
+			Currently your order is <span  class="totalCost" >0.00</span> Which is great!
+		</div>
+
+		 <div class="" > Money left: <span  class="moneyLeft" >0.00</span></div>
+	</div>
 
 	<div class="pizzas">
 		<div class="pizza small_pizza">
@@ -25,6 +41,8 @@
 				commodo
 				consequat.
 			</div>
+			<button class="small_pizza_button" >Add to order</button>
+			<button>Remove</button>
 		</div>
 
 		<div class="pizza medium_pizza">
@@ -37,6 +55,8 @@
 				ex
 				ea commodo consequat.
 			</div>
+			<button class="medium_pizza_button" >Add to order</button>
+			<button>Remove</button>
 		</div>
 
 		<div class="pizza large_pizza">
@@ -52,6 +72,8 @@
 				commodo
 				consequat.
 			</div>
+			<button class="large_pizza_button" >Add to order</button>
+			<button>Remove</button>
 		</div>
 	</div>
 
@@ -62,7 +84,7 @@
 		<h2>Contact details</h2>
 		Contact us at: 011 340 1231 info@perfectpizza.co.za
 	</div>
-
+	<script src="pizza.js"></script>
 </body>
 
 </html>
